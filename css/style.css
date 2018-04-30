@@ -1,0 +1,42 @@
+h1,h2,h3{
+
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.added{
+    color:green;
+}
+
+.deleted{
+    color:red;
+}
+
+ul{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.topDiv{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
